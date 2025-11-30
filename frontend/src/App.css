@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background-color: #f5f6fa;
+}
+
+/* Colors */
+.text-red {
+  color: #d92332 !important;
+}
+
+.btn-red {
+  background-color: #d92332 !important;
+  border-color: #d92332 !important;
+  color: #fff !important;
+}
+
+.btn-red:hover {
+  background-color: #b71826 !important;
+  border-color: #b71826 !important;
+}
+
+.btn-outline-red {
+  border-color: #d92332 !important;
+  color: #d92332 !important;
+}
+
+.btn-outline-red:hover {
+  background-color: #d92332 !important;
+  color: #fff !important;
+}
+
+.btn-red-soft {
+  background-color: #fbeaec !important;
+  border-color: #f7d1d6 !important;
+}
+
+/* Navbar */
+.navbar-red {
+  background: linear-gradient(90deg, #d92332, #b71826);
+}
+
+.brand-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff22;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.text-light-50 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 0.95rem;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.active-nav-link {
+  position: relative;
+  color: #fff !important;
+}
+
+.active-nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0.5rem;
+  right: 0.5rem;
+  bottom: -4px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 999px;
+}
+
+/* Layout */
+.app-main {
+  min-height: calc(100vh - 56px);
+}
+
+/* Home page */
+.home-hero {
+  padding: 2.5rem 0 2rem;
+}
+
+.hero-title {
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 0.98rem;
+  color: #555;
+}
+
+.badge-soft-red {
+  background-color: #fbeaec;
+  color: #d92332;
+  border-radius: 999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.hero-stats .stat-value {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.hero-stats .stat-label {
+  font-size: 0.78rem;
+  color: #777;
+}
+
+.hero-panel {
+  border-radius: 1rem;
+}
+
+.bg-light-red {
+  background-color: #fbeaec;
+}
+
+.bg-danger-subtle {
+  background-color: #fbeaec !important;
+}
+
+.border-danger-subtle {
+  border-color: #f5cbd1 !important;
+}
+
+/* Timeline in hero */
+.timeline {
+  border-left: 2px solid #f0d0d5;
+  padding-left: 1rem;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.9rem;
+}
+
+.timeline-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background-color: #d92332;
+  margin-left: -1.06rem;
+  margin-top: 0.25rem;
+}
+
+/* Sections */
+.home-section {
+  padding: 1.8rem 0;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+/* Category cards */
+.category-card {
+  background-color: #fff;
+  border-radius: 0.9rem;
+  padding: 0.9rem;
+  border: 1px solid #eee;
+  text-align: left;
+  height: 100%;
+}
+
+.category-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background-color: #fbeaec;
+  color: #d92332;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.category-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.category-sub {
+  font-size: 0.78rem;
+  color: #777;
+}
+
+/* Doctor cards */
+.doctor-card-pro {
+  border-radius: 0.9rem;
+  border-left: 4px solid #f5cbd1;
+  transition: 0.2s ease;
+}
+
+.doctor-card-pro:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(217, 35, 50, 0.18);
+  border-left-color: #d92332;
+}
+
+/* Steps */
+.step-card {
+  background-color: #fff;
+  border-radius: 0.9rem;
+  padding: 1rem;
+  border: 1px solid #eee;
+}
+
+.step-number {
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  background-color: #d92332;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+/* CTA strip */
+.cta-strip {
+  background: linear-gradient(90deg, #d92332, #b71826);
+  padding: 1.1rem 0;
+  margin-top: 1rem;
+}
+
+/* Filter card */
+.filter-card {
+  border-radius: 0.8rem;
+}
+
+/* Booking page */
+.booking-card {
+  border-radius: 0.9rem;
+}
+
+.category-pill {
+  border-radius: 999px;
+  border: 1px solid #e0e0e0;
+  padding-inline: 0.9rem;
+  background-color: #fff;
+}
+
+.category-pill-active {
+  border-color: #d92332;
+  background-color: #fbeaec;
+  color: #d92332;
+}
+
+.doctor-list-scroll {
+  max-height: 290px;
+  overflow-y: auto;
+  padding-right: 0.3rem;
+}
+
+.doctor-row-pro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.55rem 0.4rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.doctor-row-pro:last-child {
+  border-bottom: none;
+}
+
+.doctor-row-selected {
+  background-color: #fbeaec;
+}
+
+/* Info card */
+.info-card {
+  border-radius: 0.9rem;
+}
+
+/* Scrollbar small tweak (optional) */
+.doctor-list-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.doctor-list-scroll::-webkit-scrollbar-thumb {
+  background-color: #e0a7af;
+  border-radius: 999px;
+}
